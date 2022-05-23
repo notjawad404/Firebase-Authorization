@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     private void logout1() {
         startActivity(new Intent(MainActivity.this, Login.class));
     }
